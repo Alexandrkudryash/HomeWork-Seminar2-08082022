@@ -11,22 +11,22 @@ array[0] = 1;
 Console.WriteLine();
 Console.WriteLine("получается такой массив:");
 Console.Write(array[0] +", ");
-int j = 1;
-while (j < size)
+int i = 1;
+while (i < size)
 {
-    array[j] = array[j-1] + 1;
-    Console.Write(array[j] +", ");
-    j++;
+    array[i] = array[i-1] + 1;
+    Console.Write(array[i] +", ");
+    i++;
 }
 Console.WriteLine();
 Console.WriteLine("Сумма чисел от 1 до введенного числа:");
 
-int i = 1;
+int j = 1;
 int sum = array [0];
-while (i < size)
+while (j < size)
  {
-    array[i] = array[i-1]+1;
-    sum = sum+array[i];
-    i++;
+    array[j] = array[j-1]+1;
+    sum = sum+array[j];
+    j++;
 }
 Console.WriteLine(sum);
