@@ -30,11 +30,11 @@ Console.WriteLine(Factorial(size));
 
 /*
 int j = 1;
-int z = 1;
+int x = 1;
 while (j < size)
  {
-    int x = x * array[j];
-    Console.Write(x +", ");
+    int x = x * array[j]; здесь код выдаёт ошибку не пойму почему. 
+    Console.Write(x +", "); для решения задачи взял код из лекции-4 для расчета N-факториала
     j++;
  }*/
 Console.WriteLine();
